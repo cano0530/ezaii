@@ -1,0 +1,11 @@
+#!/bin/bash
+
+export HUBOT_HIPCHAT_TOKEN="u04IUqHxY5ILGqCUhwGRe8iU6rZ3eCaXR8VlppYB"
+export HUBOT_HIPCHAT_JID="157910_1137236@chat.hipchat.com"
+export HUBOT_HIPCHAT_PASSWORD="5899530"
+export HUBOT_HIPCHAT_ROOMS="Ezaii"
+export HUBOT_LOG_LEVEL="debug"
+export HUBOT_WEATHER_CELSIUS="true" 
+
+bin/hubot -a hipchat -n hubot
+
